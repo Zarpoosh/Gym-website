@@ -27,6 +27,8 @@ $(window).scroll(function(){
     }
 })
 
+
+
 $('.gallery-list-item').click(function(){
     let value = $(this).attr('data-filter');
     $(this).addClass('active-item').siblings().removeClass('active-item')
